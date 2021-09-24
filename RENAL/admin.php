@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
               <a class="nav-link active" aria-current="page" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Logout.php">Log out</a>
+              <a class="nav-link active" aria-current="page" href="logout.php">Log out</a>
             </li>
           </ul>
         </div>
