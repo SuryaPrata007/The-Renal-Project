@@ -1,5 +1,5 @@
 <?php
-require 'C:/xampp/htdocs/RENAL/partials/_connection.php';
+include '_connection.php';
 ?>
 
 

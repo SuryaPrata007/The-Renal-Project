@@ -9,7 +9,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
 $err = false;
 $succ = false;
 
-require 'C:/xampp/htdocs/RENAL/partials/_connection.php';
+include '_connection.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $name = $_POST['name1'];

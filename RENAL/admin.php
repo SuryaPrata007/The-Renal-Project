@@ -6,7 +6,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
 ?>
 
 <?php
-require 'C:/xampp/htdocs/RENAL/partials/_connection.php';
+include '_connection.php';
 $err = false;
 $succ = false;
 
